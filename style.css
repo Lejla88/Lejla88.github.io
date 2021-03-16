@@ -1,0 +1,134 @@
+body {
+  background: #00ffff;
+}
+
+#container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+header {
+  background: #303030;
+  height: 100px;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  background: #c0c0c0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding: 2px 6px 2px 6px;
+  font-size: 20px;
+  height: 30px;
+  align-self: center;
+  margin-right: 15px;
+  border: 0px;
+  font-family: "Press Start 2P", cursive;
+}
+
+main {
+  margin-top: 90px;
+  display: flex;
+  flex-basis: 200px;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  min-width: 50%;
+  margin-right: 5px;
+  justify-content: space-between;
+}
+
+.left h3 {
+  font-size: 3em;
+  padding-left: 10px;
+  padding-top: 350px;
+  padding-bottom: 0;
+}
+
+.left h1 {
+  font-size: 4em;
+  padding-left: 10px;
+  padding-top: 50px;
+  line-height: 50px;
+}
+
+.first {
+  background-image: url("https://i.postimg.cc/2yQ8q7r9/hayden-christensen-3.png");
+  background-size: cover;
+  height: 35em;
+  flex-direction: column;
+  line-height: 0px;
+  justify-self: flex-start;
+  font-family: "Fascinate", cursive;
+}
+
+.first img {
+
+}
+
+blockquote::before {
+  content: "”";
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 3em;
+  background: #444;
+  text-align: left;
+}
+
+blockquote {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  background: #444;
+  display: flex;
+  font-size: 3em;
+  padding: 15px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: space-between;
+}
+
+.right h1 {
+  font-family: "Satisfy", cursive;
+  font-size: 2em;
+  color: #222222;
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+  text-transform: capitalize;
+  line-height: 20px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222222;
+  font-size: 30px;
+  text-align: start;
+}
+
+ul {
+  font-family: "Josefin Sans", sans-serif;
+  color: #222222;
+  font-size: 25px;
+  line-height: 30px;
+  list-style-type: square;
+}
